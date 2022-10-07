@@ -159,6 +159,13 @@ footer p {
     margin: 5px;
 }
 
+#disfarse {
+    height: 80px;
+    min-height: 80px;
+    max-height: 90px;
+    width: 210px;
+}
+
 
 /* Contato */
 
