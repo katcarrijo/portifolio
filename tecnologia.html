@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologias</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+</head>
+<body onresize="changesize()">
+
+   
+    <header>
+    
+
+        <menu>
+            <H2>PabloCarrijo</H2>
+            <ul>
+                <li><a href="index.html" id="hometext">Home</a></li>
+                <li><a href="tecnologia.html">Tecnologias</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </menu>
+
+
+        <nav id="mobile-nav">
+            <div id="mobile-nav-line-header">
+                <H2>PabloCarrijo</H2>
+                <img src="image/menu-buton.png" alt="" id="menubuttonimg" onclick="clickmenu()" width="24px" height="24px">
+            </div>
+            <ul id="mobile-ul">
+                <li><a href="index.html" id="hometext">Home</a></li>
+                <li><a href="tecnologia.html">Tecnologias</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="all">
+        
+        <div id="tecno" class="langtec">
+            <h2 class="h2lang">Tecnologias</h2>
+            <div id="htmltec" class="conjunt">
+                <img src="image/html5.png" alt="" width="32px" height="32px" class="imglogo">
+                <p>Atualmente, possuo um conhecimento intermediário em HTML5</p>
+            </div>
+
+
+            <div id="csstec" class="conjunt"> 
+                <img src="image/css-3.png" alt="" width="32px" height="32px" class="imglogo">
+                <p>Atualmente, possuo um conhecimento intermediário em CSS3. </p>
+            </div>
+
+            <div class="conjunt">
+                <img src="image/internet.png" alt="" width="32px" height="32px" class="imglogo">
+                <p id="tecp">Obs: Site feito completamente em HTML5 e CSS3</p>
+            </div>
+        </div>
+        
+
+        
+        
+            <div id="lang" class="langtec">
+                <h2 class="h2lang">Linguagens</h2>
+                <div id="pythonlang" class="conjunt">
+                    <img src="image/pitao.png" alt="" width="32px" height="32px" class="imglogo">
+                    <p>Atualmente, possuo um conhecimento básico ao intermediário em Python</p>
+                </div>
+
+
+                <div id="javalang" class="conjunt">
+                    <img src="image/js.png" alt="" width="32px" height="32px" class="imglogo">
+                    <p>Atualmente, possuo um conhecimento intermediário em JavaScript</p>
+                </div>
+                
+                <div id="disfarse"></div>
+
+            </div>
+    </div>
+
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>

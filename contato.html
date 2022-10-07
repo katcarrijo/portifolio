@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+</head>
+<body onresize="changesize()">
+
+   
+    <header>
+    
+
+        <menu>
+            <H2>PabloCarrijo</H2>
+            <ul>
+                <li><a href="index.html" id="hometext">Home</a></li>
+                <li><a href="tecnologia.html">Tecnologias</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </menu>
+
+
+        <nav id="mobile-nav">
+            <div id="mobile-nav-line-header">
+                <H2>PabloCarrijo</H2>
+                <img src="image/menu-buton.png" alt="" id="menubuttonimg" onclick="clickmenu()" width="24px" height="24px">
+            </div>
+            <ul id="mobile-ul">
+                <li><a href="index.html" id="hometext">Home</a></li>
+                <li><a href="tecnologia.html">Tecnologias</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <div id="mnsg">
+        <h1>Interessado no meu trabalho?</h1>
+        <h2>Contate-me!</h2>
+    </div>
+
+    <form action="https://api.sheetmonkey.io/form/cXJ8HY5eMDFqK4cNjRVC6k" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <div id="form">
+    
+            <div class="topform">
+                <div>
+                    <p>Nome</p>
+                    <input type="text" id="nome">
+                </div>
+                <div>
+                    <br>
+                    <p></p>Email</p>
+                    <input type="email" id="email">
+                </div>
+            </div>
+    
+            <div>
+                <br>
+                <p>Mensagem</p>
+                <textarea name="" id="desc" cols="30" rows="7"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar" id="submit" onclick="clickSubmit()">
+        </div>
+
+    </form>
+
+    <p id="ou-end">OU</p>
+
+    <div id="disc-insta">
+
+        <a href="https://discord.gg/NxZtcprSRW"><img src="image/discordia.png" width="64px" alt=""></a>
+        <a href="https://github.com/katcarrijo"><img src="image/github.png" width="64px" alt=""></a>
+        <a href="https://www.instagram.com/pablo_carrijo/"><img src="image/instagram.png" width="64px" alt=""></a>
+
+    </div>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
