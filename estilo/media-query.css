@@ -20,7 +20,12 @@
         display: none;
     }
 
-
+    #all {
+        max-width: 499px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+    }
 
 }
 

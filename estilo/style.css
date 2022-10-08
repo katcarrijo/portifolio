@@ -138,6 +138,10 @@ footer p {
 
 }
 
+.h2lang {
+    text-align: center;
+}
+
 .langtec {
     padding: 10px;
 }
@@ -156,7 +160,7 @@ footer p {
 }
 
 .imglogo {
-    margin: 5px;
+    margin: 8px;
 }
 
 #disfarse {
